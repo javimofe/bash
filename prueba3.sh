@@ -1,9 +1,5 @@
 #!/bin/bash
-#Ejercicio 3 Practica 1 PAS
-#control de errores
-#si la carpeta pequeno mediano grande existen borrarlas(rm -d)
-#crear carpetas mkdir
-#recorrer directorio $1 y mirar tamaños, si tamaño es mas pequeño que umbral 1 copiamos a carpeta pequeños(cp $x donde_copiar)
+
 if [ $# -eq 1 -o $# -eq 2 -o $# -eq 3 ] && [ -d $1 ];
 then
     #fijamos valores por defecto para umbrales
