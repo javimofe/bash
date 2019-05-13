@@ -1,5 +1,4 @@
 #!/bin/bash
-#Ejercicio 2 Practica 1 PAS
 if [ $# -gt 0 ] && [ $# -lt 3 ] && [ -d $1 ]
 then 
 	if [ $# -eq 1 ]
