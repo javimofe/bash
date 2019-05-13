@@ -1,5 +1,4 @@
 #!/bin/bash
-#Ejercicio 5 Practica 1 PAS
 
 mkdir $HOME/copia
 
